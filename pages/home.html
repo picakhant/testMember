@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CU-CONNECT || Home</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body data-bs-theme="dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="./home.html">
+          <img src="../img/logo.png" style="height: 40px" alt="" />
+          CU-CONNECT
+        </a>
+
+        <!-- mobile menu offcanvas -->
+        <button
+          class="d-lg-none btn btn-sm btn-outline-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbar-offcanvas"
+          aria-controls="navbar-offcanvas"
+        >
+          <img src="../img/menu.png" style="height: 20px" alt="" />
+        </button>
+
+        <!-- menu for pc view -->
+        <div class="d-none d-lg-flex align-items-center gap-5">
+          <ul
+            class="navbar-nav d-flex gap-3 align-items-center ms-auto mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown dropstart">
+              <a
+                class="nav-link dropdown-toggle btn btn-primary"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profile
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="dropdown-item" id="profile-name">
+                    <!-- from localstorage -->
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown-item" id="profile-email">
+                    <!-- from localstorage -->
+                  </div>
+                </li>
+                <li></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <div id="user-logout" class="btn btn-sm btn-danger">Log Out</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- section -->
+      <div class="row">
+        <div
+          class="col-lg-4 d-none d-lg-block z-0 p-3 vh-100 bg-dark-subtle"
+          style="position: sticky; top: 67px"
+        >
+          <div class="d-flex flex-column gap-3">
+            <a class="btn btn-secondary w-100">+ Create Blog</a>
+            <div class="fs-5 text-center">
+              -- Your Blogs --
+              <hr />
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="text-muted">
+                No Blog Here,
+                <button class="btn btn-link btn-sm">
+                  create your own blog
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8 p-3">
+          <div class="d-flex flex-column">
+            <div class="card w-100 mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Blog title</h5>
+                <p class="card-text" style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  natus voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!
+                  <button class="btn btn-sm btn-link">read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="card w-100 mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Blog title</h5>
+                <p class="card-text" style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  natus voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!
+                  <button class="btn btn-sm btn-link">read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="card w-100 mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Blog title</h5>
+                <p class="card-text" style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  natus voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!
+                  <button class="btn btn-sm btn-link">read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="card w-100 mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Blog title</h5>
+                <p class="card-text" style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  natus voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!
+                  <button class="btn btn-sm btn-link">read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="card w-100 mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Blog title</h5>
+                <p class="card-text" style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  natus voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Quae natus
+                  voluptatum nam placeat id, harum porro facere sit odit
+                  excepturi praesentium eligendi beatae voluptatem impedit
+                  dignissimos quaerat inventore corporis nostrum!
+                  <button class="btn btn-sm btn-link">read more</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Window load alert Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary d-none"
+      data-bs-toggle="modal"
+      data-bs-target="#window-load-alert"
+      id="load-alert"
+    >
+      Launch static backdrop modal
+    </button>
+
+    <!-- Modal Window load alert -->
+    <div
+      class="modal fade"
+      id="window-load-alert"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="window-load-alertLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-sm modal-dialog-centered border-warning border-1 text-warning"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="window-load-alertLabel">
+              Warring
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Our website keep your data on your browser localstorage. If
+              localstorage is clear you will be sign up again!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- offcanvas body -->
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="navbar-offcanvas"
+      aria-labelledby="navbar-offcanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="navbar-offcanvasLabel">CU-CONNECT</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-flex flex-column">
+          <div class="p-3">Home</div>
+          <div class="dropdown dropdown-center">
+            <a
+              class="dropdown-toggle btn"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Profile
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="dropdown-item" id="profile-name">
+                  <!-- from localstorage -->
+                </div>
+              </li>
+              <li>
+                <div class="dropdown-item" id="profile-email">
+                  <!-- from localstorage -->
+                </div>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="p-3">
+            <div class="btn btn-danger btn-sm" id="user-logout">Log Out</div>
+          </div>
+          <hr />
+          <div class="mt-3">
+            <div class="btn btn-secondary">Create Post</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>
